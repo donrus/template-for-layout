@@ -1,0 +1,20 @@
+@import "common/mixins.scss";
+@import "common/libs.scss";
+@import "common/vars.scss";
+@import "common/fonts.scss";
+@import "common/animation.scss";
+@import "common/layout.scss";
+
+
+//модификация стилей библиотек
+@import "libs-modify/libs-modify.scss";
+//компоненты
+@import "components/components.scss";
+//блоки
+@import "blocks/blocks.scss";
+//формы
+@import "forms/forms.scss";
+
+// СТРАНИЦЫ
+// Главная страница
+@import "pages/index";

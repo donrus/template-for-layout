@@ -1,0 +1,13 @@
+{
+  //"presets": ["env"]
+  //"plugins": ["transform-object-assign"],
+  "presets": [
+    ["env", {
+      "targets": [
+        "> 4%",
+        "ie 11",
+        "safari 8"
+      ]
+    }]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Заготовка для верстки",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Донченко Руслан. DonRus",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-cli": "^2.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csso": "^3.0.0",
+    "gulp-htmlhint": "^2.1.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-svg-sprite": "^1.3.7",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "jquery": "^3.3.1",
+    "postcss-reporter": "^5.0.0",
+    "postcss-scss": "^1.0.5",
+    "stylelint": "^9.2.1",
+    "vinyl-ftp": "^0.6.1",
+    "webpack": "^4.9.1",
+    "webpack-stream": "^4.0.3"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "svg4everybody": "^2.1.8"
+  }
+}

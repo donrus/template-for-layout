@@ -1,0 +1,37 @@
+include ../mixins
+block variables
+
+doctype html
+html(lang="ru-RU")
+    head
+        meta(charset="utf-8")
+        title #{title}
+        <!--[if IE]>
+        meta(http-equiv='X-UA-Compatible', content="IE = edge")
+        <![endif]-->
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(name="keywords" content="")
+        meta(property="og:locale" content="ru_RU")
+        meta(property="og:type" content="article")
+        meta(property="og:title" content="Trianon")
+        meta(property="og:description" content="Сотрудничество России и Франции")
+        meta(property="og:url" content="http://dialogue-trianon.fr")
+        meta(property="og:image" content="img/content/moist.png")
+        meta(property="og:site_name" content="")
+        //link(rel="stylesheet" type='text/css' href="css/libs.min.css")
+        link(rel="stylesheet" type='text/css' href="css/main.css")
+        link(rel="shortcut icon" href="img/content/favicon.ico" type="image/x-icon")
+        link(rel="icon" href="img/content/favicon.ico" type="image/x-icon")
+        <!--[if lt IE 9]>
+        script(src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js")
+        <![endif]-->
+    body(class=pageClass)
+        .wrapper
+            include ../blocks/header
+            .content
+                block content
+            include ../blocks/footer
+        script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+        script(src="js/main.js")
+        block script
+
